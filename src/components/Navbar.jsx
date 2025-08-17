@@ -9,8 +9,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#F7E6CA] shadow-md"> 
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"> 
         {/* Logo / Brand */} 
-        <div className="text-2xl font-bold text-yellow-900">GOOD<br />CHIPS</div> 
- 
+      <a href="#home" className="text-2xl font-bold text-yellow-900 cursor-pointer">
+        GOOD<br />CHIPS
+      </a>
         {/* Desktop Menu */} 
         <div className="hidden md:flex items-center space-x-4"> 
           {/* Search Field */}

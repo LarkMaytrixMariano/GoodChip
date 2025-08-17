@@ -54,7 +54,6 @@ const Hero = () => {
             CHIPS
           </h2>
         </div>
-        
         {/* Button Container - Bottom */}
         <div className="flex flex-col sm:flex-row gap-4 px-6 pb-16">
           {/* Buy $CHIPS Button */}

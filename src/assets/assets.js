@@ -2,7 +2,7 @@ import chip1 from "../assets/chip1.png";
 import chip2 from "../assets/chip2.png"; 
 import chip3 from "../assets/chip3.png";
 import eatChip from "../assets/eatChip.mp3";
-import chipsVid from "../assets/chipsVid.mp4";
+import chipsVid from "../assets/chipsVid2.mp4";
 import chipCarousel1 from "../assets/CheddarChips.png";
 import chipCarousel2 from "../assets/SaltChips.png";
 import chipCarousel3 from "../assets/BbqChips.png";
