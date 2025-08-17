@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+body{
+    @apply bg-[#F9EDD5] text-gray-800 font-sans;
+    @apply antialiased;
+    @apply selection:bg-[#F7E6CA] selection:text-gray-800;
+    @apply transition-colors duration-200;
+}
