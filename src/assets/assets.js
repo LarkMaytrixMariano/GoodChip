@@ -9,6 +9,8 @@ import chipCarousel3 from "../assets/BbqChips.png";
 import Chip from "../assets/Chip.png";
 import ChipWhy from "../assets/ChipsWhy.jpg";
 import ChipCycle from "../assets/ChipCycle.png";
+import TargetLogo from "../assets/TargetLogo.png";
+import WalmartLogo from "../assets/WalmartLogo.png";
 
 export const chipStages = [
   chip1, // full chip
@@ -27,3 +29,5 @@ export const chipsVideo = chipsVid;
 export const chipImage = Chip;
 export const chipWhyImage = ChipWhy;
 export const chipCycleImage = ChipCycle;
+export const targetLogo = TargetLogo;
+export const walmartLogo = WalmartLogo;

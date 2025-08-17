@@ -44,10 +44,10 @@ const WhyGoodChips = () => {
             {/* Content Section */}
             <div className="md:w-1/2 p-8 flex flex-col justify-center">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-1">
+                <h2 className="text-2xl md:text-3xl font-medium text-gray-800 mb-1 font-playfair">
                   Why <span className="text-yellow-600">GOOD CHIPS</span>
                 </h2>
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
+                <h3 className="text-2xl md:text-3xl text-gray-800 font-playfair font-medium">
                   are good?
                 </h3>
               </div>
@@ -59,7 +59,7 @@ const WhyGoodChips = () => {
                     <div className="flex-shrink-0">
                       {feature.icon}
                     </div>
-                    <p className="text-gray-600 text-sm font-medium">
+                    <p className="text-gray-600 text-[18px] font-light font-playfair">
                       {feature.text}
                     </p>
                   </div>

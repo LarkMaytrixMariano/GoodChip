@@ -90,7 +90,7 @@ const ProductCarousel = () => {
   ];
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#F5F0E8] to-[#F7E6CA] overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-b from-[#F5F0E8] to-[#F7E6CA] overflow-hidden" id="products">
       {/* Parallax Background Elements - Floating Chips */}
       <div className="absolute inset-0 pointer-events-none">
         {floatingChips.map((chip) => (
@@ -126,11 +126,11 @@ const ProductCarousel = () => {
       >
         {/* Header Text */}
         <div className="text-center mb-16 max-w-4xl">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-800 mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-playfair text-gray-800 mb-6 leading-tight">
             Not all chips are{' '}
             <span className="text-yellow-600">GOOD</span>.
           </h1>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-800">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-800 font-playfair">
             These are.
           </h2>
         </div>

@@ -2,26 +2,17 @@ import React from 'react'
 import { chipsVideo } from '../assets/assets'
 
 const Hero = () => {
-  // Debug function to check video loading
   const handleVideoLoad = () => {
-    console.log('✅ Video loaded successfully!');
   };
-
   const handleVideoError = (e) => {
-    console.error('❌ Video failed to load:', e);
-    console.log('Video source:', chipsVideo);
   };
-
   const handleVideoPlay = () => {
-    console.log('▶️ Video started playing');
   };
-
   const handleVideoCanPlay = () => {
-    console.log('🎬 Video can start playing');
   };
 
   return (
-    <div className="relative w-full h-screen bg-black overflow-hidden">
+    <div className="relative w-full h-screen bg-black overflow-hidden" id="home">
       {/* Video Background */}
       <div className="absolute inset-0">
         <video 

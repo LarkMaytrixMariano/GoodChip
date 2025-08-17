@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import "tailwindcss";
 
 
@@ -7,3 +8,15 @@ body{
     @apply selection:bg-[#F7E6CA] selection:text-gray-800;
     @apply transition-colors duration-200;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-abril: "Abril Fatface", serif;
+}
+

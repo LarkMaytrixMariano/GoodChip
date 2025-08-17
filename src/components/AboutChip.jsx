@@ -5,7 +5,12 @@ const AboutChip = () => {
   return (
     <div className="bg-[#F7E6CA] py-16 overflow-hidden">
       {/* Marquee Section */}
-      <div className="mb-16">
+      <div 
+        className="mb-16 font-playfair text-center text-4xl md:text-5xl font-bold text-gray-800"
+        style={{ 
+          textShadow: '3px 3px 6px rgba(0, 0, 0, 0.15)' 
+        }}
+      >
         {/* First Marquee - Left to Right */}
         <div className="relative overflow-hidden whitespace-nowrap mb-4">
           <div className="animate-marquee-ltr inline-block">
@@ -30,10 +35,10 @@ const AboutChip = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left Side - Text Content */}
           <div className="lg:w-1/2 space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
               What is $CHIPS?
             </h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-lg leading-relaxed font-playfair">
               $CHIPS is the reward token for the GOOD CHIPS brand. An #Eat2Earn project soon to launch on the Solana chain. Yada yada yada, yada yada yada yada yada yada yada.
             </p>
           </div>
