@@ -11,6 +11,7 @@ import ChipWhy from "../assets/ChipsWhy.jpg";
 import ChipCycle from "../assets/ChipCycle.png";
 import TargetLogo from "../assets/TargetLogo.png";
 import WalmartLogo from "../assets/WalmartLogo.png";
+import BlurBg from "../assets/BlurBg.png";
 
 export const chipStages = [
   chip1, // full chip
@@ -31,3 +32,4 @@ export const chipWhyImage = ChipWhy;
 export const chipCycleImage = ChipCycle;
 export const targetLogo = TargetLogo;
 export const walmartLogo = WalmartLogo;
+export const blurBackground = BlurBg;

@@ -6,7 +6,7 @@ const AboutChip = () => {
     <div className="bg-[#F7E6CA] py-16 overflow-hidden">
       {/* Marquee Section */}
       <div 
-        className="mb-16 font-playfair text-center text-4xl md:text-5xl font-bold text-gray-800"
+        className="mb-25 font-playfair text-center text-4xl md:text-5xl font-bold text-gray-800"
         style={{ 
           textShadow: '3px 3px 6px rgba(0, 0, 0, 0.15)' 
         }}

@@ -193,7 +193,7 @@ const ProductCarousel = () => {
           </div>
 
           {/* Dots Indicator */}
-          <div className="flex justify-center mt-12 space-x-4 relative z-50 sm:mb-20">
+          <div className="flex justify-center mt-12 space-x-4 relative z-50 sm:mb-30">
             {chipCarouselImages.map((_, index) => (
               <button
                 key={index}
