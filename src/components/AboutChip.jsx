@@ -57,7 +57,7 @@ const AboutChip = () => {
       </div>
 
       {/* Custom CSS for Marquee Animations */}
-      <style jsx>{`
+      <style>{`
         @keyframes marquee-ltr {
           0% {
             transform: translateX(-100%);
